@@ -1,0 +1,176 @@
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="addresses_readwrite" ^
+-v v_rw_user_password="sr7YxFHGKUmKbZQAuWWf" ^
+-v v_rw_user="addresses" ^
+-v v_ci_user="addresses_ci_user" ^
+-v v_ci_user_password="vAJcnhdGmwDNNPnWA4Pi" ^
+-v v_read_role="addresses_readonly" ^
+-v v_dbname="addresses" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="addresses_readwrite" ^
+-v v_rw_user_password="sr7YxFHGKUmKbZQAuWWf" ^
+-v v_rw_user="addresses" ^
+-v v_ci_user="addresses_ci_user" ^
+-v v_ci_user_password="vAJcnhdGmwDNNPnWA4Pi" ^
+-v v_read_role="addresses_readonly" ^
+-v v_dbname="addresses" ^
+-v v_schema="task-manager"
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="associate_readwrite" ^
+-v v_rw_user="associate" ^
+-v v_rw_user_password="GoxgmmYGpHKFLgwZ4ntv" ^
+-v v_ci_user="associate_ci_user" ^
+-v v_ci_user_password="SY5Wh58scBAJ9efQuttN" ^
+-v v_read_role="associate_readonly" ^
+-v v_dbname="associate" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="associate_readwrite" ^
+-v v_rw_user_password="GoxgmmYGpHKFLgwZ4ntv" ^
+-v v_rw_user="associate" ^
+-v v_ci_user="associate_ci_user" ^
+-v v_ci_user_password="SY5Wh58scBAJ9efQuttN" ^
+-v v_read_role="associate_readonly" ^
+-v v_dbname="associate" ^
+-v v_schema="task-manager"
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="config_readwrite" ^
+-v v_rw_user="config" ^
+-v v_rw_user_password="ESi6e5EUuRgR3H8H27J4" ^
+-v v_ci_user="config_ci_user" ^
+-v v_ci_user_password="ttTC8vEc5UFPNDrrxv76" ^
+-v v_read_role="config_readonly" ^
+-v v_dbname="config" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="config_readwrite" ^
+-v v_rw_user="config" ^
+-v v_rw_user_password="ESi6e5EUuRgR3H8H27J4" ^
+-v v_ci_user="config_ci_user" ^
+-v v_ci_user_password="ttTC8vEc5UFPNDrrxv76" ^
+-v v_read_role="config_readonly" ^
+-v v_dbname="config" ^
+-v v_schema="task-manager"
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="customer_readwrite" ^
+-v v_rw_user="customer" ^
+-v v_rw_user_password="mGojxyeEbChC9noRGDLQ" ^
+-v v_ci_user="customer_ci_user" ^
+-v v_ci_user_password="8BtT69FNdcTg3ZVD5hcB" ^
+-v v_read_role="customer_readonly" ^
+-v v_dbname="customer" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="customer_readwrite" ^
+-v v_rw_user="customer" ^
+-v v_rw_user_password="mGojxyeEbChC9noRGDLQ" ^
+-v v_ci_user="customer_ci_user" ^
+-v v_ci_user_password="8BtT69FNdcTg3ZVD5hcB" ^
+-v v_read_role="customer_readonly" ^
+-v v_dbname="customer" ^
+-v v_schema="task-manager"
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="identity_readwrite" ^
+-v v_rw_user="identity" ^
+-v v_rw_user_password="jqjqG9c6YCFw6AQ99NjP" ^
+-v v_ci_user="identity_ci_user" ^
+-v v_ci_user_password="QmcPNKU3WtCeS8vqkB48" ^
+-v v_read_role="identity_readonly" ^
+-v v_dbname="identity" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="identity_readwrite" ^
+-v v_rw_user="identity" ^
+-v v_rw_user_password="jqjqG9c6YCFw6AQ99NjP" ^
+-v v_ci_user="identity_ci_user" ^
+-v v_ci_user_password="QmcPNKU3WtCeS8vqkB48" ^
+-v v_read_role="identity_readonly" ^
+-v v_dbname="identity" ^
+-v v_schema="task-manager"
+
+
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="jobs_readwrite" ^
+-v v_rw_user="jobs" ^
+-v v_rw_user_password="vjEMbEFvkzqZXVHXrvnf" ^
+-v v_ci_user="jobs_ci_user" ^
+-v v_ci_user_password="apB3fMU7AcUJJ5EyEb3E" ^
+-v v_read_role="jobs_readonly" ^
+-v v_dbname="jobs" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="jobs_readwrite" ^
+-v v_rw_user="jobs" ^
+-v v_rw_user_password="vjEMbEFvkzqZXVHXrvnf" ^
+-v v_ci_user="jobs_ci_user" ^
+-v v_ci_user_password="apB3fMU7AcUJJ5EyEb3E" ^
+-v v_read_role="jobs_readonly" ^
+-v v_dbname="jobs" ^
+-v v_schema="task-manager"
+
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="notifications_readwrite" ^
+-v v_rw_user="notifications" ^
+-v v_rw_user_password="tNYgfan8C5LLaK7otu4X" ^
+-v v_ci_user="notifications_ci_user" ^
+-v v_ci_user_password="V9LH6W3wZkKGDT6ZAejm" ^
+-v v_read_role="notifications_readonly" ^
+-v v_dbname="notifications" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="notifications_readwrite" ^
+-v v_rw_user="notifications" ^
+-v v_rw_user_password="tNYgfan8C5LLaK7otu4X" ^
+-v v_ci_user="notifications_ci_user" ^
+-v v_ci_user_password="V9LH6W3wZkKGDT6ZAejm" ^
+-v v_read_role="notifications_readonly" ^
+-v v_dbname="notifications" ^
+-v v_schema="task-manager"
+
+
+
+
+
+
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="orders_readwrite" ^
+-v v_rw_user="orders" ^
+-v v_rw_user_password="9h8TmvNqJHPmTqmdqpxf" ^
+-v v_ci_user="orders_ci_user" ^
+-v v_ci_user_password="GJD6eM5WTtiFGdfJnhuS" ^
+-v v_read_role="orders_readonly" ^
+-v v_dbname="orders" ^
+-v v_schema="public"
+
+psql -U reimagineUser -h reimagine-demo-canada.cluster-cmfqyg6jqm4p.ca-central-1.rds.amazonaws.com -d postgres -f "C:\Users\rpatel3\Documents\GitHub\databases\scripts\SetPermissions.sql" ^
+-v v_rw_role="orders_readwrite" ^
+-v v_rw_user="orders" ^
+-v v_rw_user_password="9h8TmvNqJHPmTqmdqpxf" ^
+-v v_ci_user="orders_ci_user" ^
+-v v_ci_user_password="GJD6eM5WTtiFGdfJnhuS" ^
+-v v_read_role="orders_readonly" ^
+-v v_dbname="orders" ^
+-v v_schema="task-manager"
